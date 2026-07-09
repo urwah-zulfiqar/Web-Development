@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h2{
+    color: #2e7d32;
+    font-size: 28px;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.navigation a:hover{
+    color: #2e7d32;
+}
+.button button{
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.hero-text{
+    width :50%
+}
+.hero-text h1{
+    font-size : 55px;
+    color:#222;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.hero-image{
+    width: 50%;
+    text-align: right;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 300px;
+}
+.btn1{
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn2{
+    background: white;
+    color: #2e7d32;
+    border:2px solid #2e7d32;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+.about-text{
+    width: 45%;
+}
+.about-text h2{
+    font-size: 40px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.about-text button{
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor:pointer
+}
+.features{
+    padding:70px 60px;
+    text-align: center;
+}
+.features h2{
+    font-size: 40px;
+    color: #2e7d32;
+    margin-bottom: 40px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    width: 250px;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background: white;
+}
+.card h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+.card p{
+    line-height: 1.6;
+}
+.card:hover{
+    transform: translate(-10px);
+    transition: 0.3s;
+}
+.record{
+    padding: 70px 60px;
+    text-align:center
+}
+.record h2{
+    font-size:60px ;
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+table{
+    width:100%;
+    border-collapse : collapse;
+}
+th{
+    background: #2e7d32;
+    color: white;
+}
+th,td{
+    border: 1px solid lightgray;
+    padding: 15px;
+    text-align: center;
+}
+tr:hover{
+    background: #f4f4f4;
+}
+.contact{
+    padding:70px 60px;
+    
+}
+.contact h2{
+    text-align:center;
+    color:#2E7D32;
+    font-size:40px;
+    margin-bottom:40px;
+}
+.contact-container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    width: 90%;
+    margin: 0 auto;
+}
+.contact-form{
+    width:60%;
+}
+
+.contact-info{
+    width:35%;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid lightgray;
+    border-radius:8px;
+    outline:none;
+}
+.contact-form textarea{
+    height:150px;
+    resize:none;
+}
+.contact-form button{
+    background:#2E7D32;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    margin: 0 auto 40px auto;
+    margin-left: 230px;
+}
+.contact-info p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+.contact-info{
+    width:35%;
+    background:#f8f9fa;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+.contact-info h3{
+    color:#2E7D32;
+    font-size:28px;
+    margin-bottom:20px;
+}
+.contact-info p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:20px;
+    line-height:1.8;
+}
+.contact-info strong{
+    color:#2E7D32;
+}
+.contact-info:hover{
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+    
+
